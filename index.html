@@ -1,0 +1,2628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VoltGuard Electrical Subcontractors — Nashville, Tennessee</title>
+<meta name="description" content="VoltGuard Electrical — Licensed electrical subcontractor serving Middle Tennessee since 1997. New construction, service upgrades, commercial buildouts. Clean work, on schedule, every time.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+<style>
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #F7F5F0;
+  --surface: #FFFFFF;
+  --alt-bg: #EFE9DE;
+  --warm-stone: #DDD5C6;
+  --putty: #BFB5A0;
+  --navy: #1B2A4A;
+  --orange: #D16A2D;
+  --orange-dark: #B55A24;
+  --copper: #C7864F;
+  --conduit: #5E7C91;
+  --green: #4D7A5A;
+  --cream: #FFFDF8;
+  --body-color: #4F4538;
+  --muted: #7D7265;
+  --footer-border: #2D4063;
+  --footer-text: #8B9DB5;
+  --footer-muted: #5E7183;
+  --serif: 'Libre Baskerville', Georgia, serif;
+  --sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --mono: 'IBM Plex Mono', 'Courier New', monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.8;
+  color: var(--body-color);
+  background-color: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Skip to content */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 16px;
+  background: var(--orange);
+  color: var(--cream);
+  padding: 12px 24px;
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 15px;
+  z-index: 10000;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 16px;
+  outline: 3px solid var(--orange);
+  outline-offset: 2px;
+}
+
+/* Focus styles */
+*:focus-visible {
+  outline: 3px solid var(--orange);
+  outline-offset: 2px;
+}
+
+a {
+  color: var(--conduit);
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+a:hover {
+  color: var(--orange);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* Section label */
+.section-label {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--orange);
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+/* Section headline */
+.section-headline {
+  font-family: var(--serif);
+  font-size: clamp(32px, 4vw, 48px);
+  color: var(--navy);
+  line-height: 1.25;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.section-headline-sm {
+  font-size: clamp(28px, 3.5vw, 42px);
+}
+
+/* Section subtext */
+.section-sub {
+  font-size: 18px;
+  color: var(--body-color);
+  max-width: 560px;
+  margin-bottom: 48px;
+}
+
+/* Reveal animation */
+.reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .hero-headline, .hero-sub, .hero-ctas {
+    opacity: 1 !important;
+    transition: none !important;
+  }
+}
+
+/* ==================== NAVIGATION ==================== */
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: var(--bg);
+  border-bottom: 1px solid var(--warm-stone);
+  z-index: 1000;
+  height: 72px;
+}
+
+.nav-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.nav-logo-icon {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+}
+
+.nav-logo-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-logo-name {
+  font-family: var(--serif);
+  font-size: 20px;
+  color: var(--navy);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.nav-logo-sub {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--muted);
+  line-height: 1.3;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  list-style: none;
+}
+
+.nav-links a {
+  font-family: var(--sans);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.02em;
+  color: var(--body-color);
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+.nav-links a:hover {
+  color: var(--orange);
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.nav-phone {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--mono);
+  font-size: 14px;
+  color: var(--conduit);
+  text-decoration: none;
+}
+
+.nav-phone svg {
+  width: 16px;
+  height: 16px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 16px;
+  padding: 14px 28px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+  line-height: 1;
+  text-align: center;
+  min-height: 48px;
+  box-sizing: border-box;
+}
+
+.btn-primary {
+  background-color: var(--orange);
+  color: var(--cream);
+}
+
+.btn-primary:hover {
+  background-color: var(--orange-dark);
+  color: var(--cream);
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid var(--navy);
+  color: var(--navy);
+}
+
+.btn-outline:hover {
+  background-color: var(--navy);
+  color: var(--cream);
+}
+
+.btn-sm {
+  font-size: 14px;
+  padding: 9px 20px;
+}
+
+/* Hamburger */
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: var(--navy);
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+/* Mobile menu overlay */
+.mobile-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--cream);
+  z-index: 9999;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.mobile-menu.open {
+  display: flex;
+}
+
+.mobile-menu-close {
+  position: absolute;
+  top: 24px;
+  right: 32px;
+  background: none;
+  border: none;
+  font-size: 32px;
+  color: var(--navy);
+  cursor: pointer;
+  font-family: var(--sans);
+  line-height: 1;
+  padding: 8px;
+}
+
+.mobile-menu-links {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.mobile-menu-links a {
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 22px;
+  color: var(--navy);
+  text-decoration: none;
+}
+
+.mobile-menu-phone {
+  margin-top: 48px;
+  text-align: center;
+}
+
+.mobile-menu-phone a {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 18px;
+  color: var(--conduit);
+  margin-bottom: 16px;
+}
+
+/* ==================== HERO ==================== */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 85vh;
+  min-height: 560px;
+  margin-top: 72px;
+  overflow: hidden;
+}
+
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #d4c8b0, #a39580);
+  /* Placeholder background color while image loads */
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+}
+
+.hero-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(247,245,240,0) 0%,
+    rgba(247,245,240,0.3) 50%,
+    rgba(247,245,240,1) 100%
+  );
+  z-index: 1;
+}
+
+.hero-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  padding: 0 32px 125px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-detail {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 24px;
+  letter-spacing: 0.02em;
+}
+
+.hero-headline {
+  font-family: var(--serif);
+  font-size: clamp(36px, 5vw, 64px);
+  line-height: 1.2;
+  color: var(--navy);
+  max-width: 720px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  opacity: 0;
+  animation: heroFadeIn 1s ease 0.2s forwards;
+}
+
+.hero-headline .accent {
+  color: var(--orange);
+}
+
+.hero-sub {
+  font-family: var(--sans);
+  font-size: clamp(17px, 2vw, 20px);
+  color: var(--body-color);
+  max-width: 540px;
+  margin-bottom: 36px;
+  line-height: 1.6;
+  opacity: 0;
+  animation: heroFadeIn 1s ease 0.5s forwards;
+}
+
+.hero-ctas {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  opacity: 0;
+  animation: heroFadeIn 1s ease 0.6s forwards;
+}
+
+@keyframes heroFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* ==================== ABOUT ==================== */
+.about {
+  background: var(--bg);
+  padding: 120px 0;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 5fr 4fr;
+  gap: 64px;
+  align-items: start;
+}
+
+.about-text p {
+  margin-bottom: 24px;
+}
+
+.about-rule {
+  width: 80px;
+  height: 2px;
+  background: var(--putty);
+  margin: 32px 0 16px;
+  border: none;
+}
+
+.about-attribution {
+  font-family: var(--mono);
+  font-style: italic;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.about-image-wrap {
+  position: relative;
+}
+
+.about-image-wrap img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  border: 1px solid var(--warm-stone);
+  box-shadow: 8px 8px 0px var(--warm-stone);
+}
+
+/* ==================== SERVICES ==================== */
+.services {
+  background: var(--alt-bg);
+  padding: 120px 0;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.service-card {
+  background: var(--surface);
+  border: 1px solid var(--warm-stone);
+  border-radius: 2px;
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 20px rgba(27,42,74,0.08);
+}
+
+.service-card-image {
+  width: 100%;
+  aspect-ratio: 4/3;
+  overflow: hidden;
+  background: var(--warm-stone);
+}
+
+.service-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* SVG placeholder images for services */
+.service-img-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #e8e0d0, #d4c8b0);
+}
+
+.service-card-body {
+  padding: 32px;
+}
+
+.service-card-title {
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--navy);
+  margin-bottom: 12px;
+  line-height: 1.3;
+}
+
+.service-card-desc {
+  font-size: 16px;
+  color: var(--body-color);
+  margin-bottom: 16px;
+  line-height: 1.7;
+}
+
+.service-card-tag {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 20px;
+  display: block;
+}
+
+.service-card-link {
+  font-family: var(--sans);
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--conduit);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.25s ease;
+}
+
+.service-card-link .arrow {
+  display: inline-block;
+  transition: transform 0.25s ease;
+}
+
+.service-card-link:hover {
+  color: var(--orange);
+}
+
+.service-card-link:hover .arrow {
+  transform: translateX(4px);
+}
+
+/* ==================== TRUST BAR ==================== */
+.trust-bar {
+  background: var(--bg);
+  padding: 72px 0;
+  border-top: 1px solid var(--warm-stone);
+  border-bottom: 1px solid var(--warm-stone);
+}
+
+.trust-bar-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+}
+
+.trust-stat {
+  text-align: center;
+  padding: 24px 16px;
+  border-right: 1px solid var(--warm-stone);
+}
+
+.trust-stat:last-child {
+  border-right: none;
+}
+
+.trust-stat-number {
+  font-family: var(--serif);
+  font-size: clamp(36px, 4vw, 48px);
+  color: var(--orange);
+  line-height: 1.2;
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+.trust-stat-label {
+  font-family: var(--sans);
+  font-size: 15px;
+  color: var(--body-color);
+}
+
+/* ==================== PROJECTS ==================== */
+.projects {
+  background: var(--alt-bg);
+  padding: 120px 0;
+}
+
+.projects-grid {
+  display: grid;
+  gap: 32px;
+}
+
+.projects-row-1 {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 32px;
+}
+
+.projects-row-2 {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 32px;
+}
+
+.project-card {
+  overflow: hidden;
+  position: relative;
+}
+
+.project-card-image {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3/2;
+  overflow: hidden;
+  background: linear-gradient(135deg, #d4c8b0, #bfb5a0);
+}
+
+.project-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: filter 0.25s ease;
+}
+
+.project-card:hover .project-card-image img {
+  filter: saturate(0.85);
+}
+
+.project-card-border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: var(--orange);
+  transition: width 0.4s ease;
+}
+
+.project-card:hover .project-card-border {
+  width: 100%;
+}
+
+.project-card-info {
+  padding: 24px 0 8px;
+}
+
+.project-card-name {
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--navy);
+  margin-bottom: 4px;
+}
+
+.project-card-location {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+.project-card-scope {
+  font-size: 16px;
+  color: var(--body-color);
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.project-tag {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--green);
+  background: rgba(77, 122, 90, 0.1);
+  padding: 4px 12px;
+  border-radius: 2px;
+}
+
+/* ==================== PROCESS ==================== */
+.process {
+  background: var(--bg);
+  padding: 120px 0;
+}
+
+.process-steps {
+  position: relative;
+  padding-left: 48px;
+  margin-top: 48px;
+}
+
+.process-line {
+  position: absolute;
+  left: 6px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--warm-stone);
+}
+
+.process-line-fill {
+  position: absolute;
+  left: 6px;
+  top: 0;
+  width: 2px;
+  height: 0;
+  background: var(--orange);
+  transition: height 0.3s ease;
+}
+
+.process-step {
+  position: relative;
+  margin-bottom: 56px;
+}
+
+.process-step:last-child {
+  margin-bottom: 0;
+}
+
+.process-dot {
+  position: absolute;
+  left: -48px;
+  top: 4px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--warm-stone);
+  border: 2px solid var(--bg);
+  box-shadow: 0 0 0 2px var(--warm-stone);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  z-index: 1;
+}
+
+.process-dot.active {
+  background: var(--orange);
+  box-shadow: 0 0 0 2px var(--orange);
+}
+
+.process-number {
+  font-family: var(--serif);
+  font-size: 28px;
+  color: var(--putty);
+  margin-bottom: 8px;
+  line-height: 1;
+}
+
+.process-title {
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--navy);
+  margin-bottom: 12px;
+}
+
+.process-desc {
+  font-size: 16px;
+  color: var(--body-color);
+  max-width: 480px;
+  line-height: 1.7;
+}
+
+/* ==================== TESTIMONIALS ==================== */
+.testimonials {
+  background: var(--alt-bg);
+  padding: 120px 0;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.testimonial-card {
+  background: var(--surface);
+  border: 1px solid var(--warm-stone);
+  padding: 40px 32px 32px;
+  position: relative;
+}
+
+.testimonial-quote-mark {
+  font-family: var(--serif);
+  font-size: 120px;
+  color: var(--warm-stone);
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  line-height: 1;
+  pointer-events: none;
+  user-select: none;
+}
+
+.testimonial-text {
+  font-family: var(--sans);
+  font-style: italic;
+  font-size: 17px;
+  color: var(--navy);
+  line-height: 1.8;
+  margin-bottom: 28px;
+  position: relative;
+  z-index: 1;
+}
+
+.testimonial-name {
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--navy);
+}
+
+.testimonial-role {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+/* ==================== SAFETY ==================== */
+.safety {
+  background: var(--bg);
+  padding: 120px 0;
+}
+
+.safety-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: start;
+}
+
+.safety-text p {
+  margin-bottom: 24px;
+}
+
+.safety-rule {
+  width: 80px;
+  height: 2px;
+  background: var(--putty);
+  margin-top: 32px;
+  border: none;
+}
+
+.creds-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.cred-card {
+  border: 1px solid var(--warm-stone);
+  padding: 20px;
+  background: var(--surface);
+}
+
+.cred-icon {
+  width: 28px;
+  height: 28px;
+  margin-bottom: 12px;
+  color: var(--orange);
+}
+
+.cred-name {
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--navy);
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+
+.cred-issuer {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--muted);
+}
+
+/* ==================== SERVICE AREA ==================== */
+.service-area {
+  background: var(--alt-bg);
+  padding: 120px 0;
+}
+
+.area-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: start;
+}
+
+.area-map {
+  width: 100%;
+  aspect-ratio: 4/3;
+  border: 1px solid var(--warm-stone);
+  background: var(--surface);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.area-map svg {
+  width: 100%;
+  height: 100%;
+}
+
+.area-list {
+  list-style: none;
+  padding: 0;
+}
+
+.area-list li {
+  font-family: var(--sans);
+  font-size: 17px;
+  color: var(--navy);
+  padding: 14px 0;
+  border-bottom: 1px solid var(--warm-stone);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.area-list li:first-child {
+  padding-top: 0;
+}
+
+.area-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--orange);
+  flex-shrink: 0;
+}
+
+.area-note {
+  font-style: italic;
+  font-size: 16px;
+  color: var(--muted);
+  margin-top: 24px;
+}
+
+/* ==================== CONTACT ==================== */
+.contact {
+  background: var(--bg);
+  padding: 120px 0;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: start;
+}
+
+.contact-form-heading {
+  font-family: var(--serif);
+  font-size: clamp(28px, 3vw, 36px);
+  color: var(--navy);
+  margin-bottom: 12px;
+  font-weight: 400;
+}
+
+.contact-form-sub {
+  font-size: 16px;
+  color: var(--body-color);
+  margin-bottom: 36px;
+  line-height: 1.7;
+}
+
+.form-group {
+  margin-bottom: 24px;
+}
+
+.form-label {
+  display: block;
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--navy);
+  margin-bottom: 8px;
+}
+
+.form-input,
+.form-select,
+.form-textarea {
+  width: 100%;
+  font-family: var(--sans);
+  font-size: 16px;
+  color: var(--navy);
+  background: var(--cream);
+  border: 1px solid var(--warm-stone);
+  padding: 14px 16px;
+  border-radius: 2px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.form-input:focus,
+.form-select:focus,
+.form-textarea:focus {
+  border-color: var(--orange);
+  box-shadow: 0 0 0 3px rgba(209,106,45,0.1);
+  outline: none;
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
+.form-select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%237D7265' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  padding-right: 44px;
+}
+
+.form-submit {
+  width: 100%;
+  background: var(--orange);
+  color: var(--cream);
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 17px;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.form-submit:hover {
+  background: var(--orange-dark);
+}
+
+.form-note {
+  font-family: var(--mono);
+  font-size: 14px;
+  color: var(--conduit);
+  margin-top: 16px;
+  text-align: center;
+}
+
+.form-note a {
+  color: var(--conduit);
+  text-decoration: underline;
+}
+
+.contact-info-image {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  border: 1px solid var(--warm-stone);
+  margin-bottom: 32px;
+  background: linear-gradient(135deg, #d4c8b0, #bfb5a0);
+}
+
+.contact-details {
+  list-style: none;
+}
+
+.contact-details li {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 12px 0;
+  font-size: 16px;
+  color: var(--body-color);
+  border-bottom: 1px solid var(--warm-stone);
+}
+
+.contact-details li:last-child {
+  border-bottom: none;
+}
+
+.contact-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  color: var(--orange);
+  margin-top: 2px;
+}
+
+.contact-map-link {
+  display: block;
+  margin-top: 24px;
+  width: 100%;
+  aspect-ratio: 16/9;
+  border: 1px solid var(--warm-stone);
+  background: linear-gradient(135deg, #e8e0d0, #d4c8b0);
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-map-link:hover {
+  opacity: 0.9;
+}
+
+.contact-license {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+/* ==================== FOOTER ==================== */
+.footer {
+  background: var(--navy);
+  padding: 64px 0 0;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 48px;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.footer-logo-name {
+  font-family: var(--serif);
+  font-size: 22px;
+  color: var(--bg);
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.footer-logo-sub {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--footer-text);
+}
+
+.footer-tagline {
+  font-family: var(--sans);
+  font-style: italic;
+  font-size: 16px;
+  color: var(--footer-text);
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+  margin-bottom: 48px;
+}
+
+.footer-col-title {
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--bg);
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.footer-col-links {
+  list-style: none;
+}
+
+.footer-col-links li {
+  margin-bottom: 12px;
+}
+
+.footer-col-links a {
+  font-family: var(--sans);
+  font-size: 14px;
+  color: var(--footer-text);
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+.footer-col-links a:hover {
+  color: var(--bg);
+}
+
+.footer-bottom {
+  border-top: 1px solid var(--footer-border);
+  padding: 24px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.footer-copyright {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--footer-muted);
+}
+
+.footer-social {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-social a {
+  color: var(--footer-muted);
+  transition: color 0.25s ease;
+}
+
+.footer-social a:hover {
+  color: var(--bg);
+}
+
+.footer-social svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* ==================== RESPONSIVE ==================== */
+@media (max-width: 1024px) {
+  .nav-links {
+    display: none;
+  }
+
+  .nav-phone {
+    display: none;
+  }
+
+  .nav-right .btn {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .safety-grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .area-grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projects-row-1,
+  .projects-row-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-links {
+    gap: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    padding: 0 24px;
+  }
+
+  .hero {
+    height: 60vh;
+    min-height: 480px;
+  }
+
+  .hero-content {
+    padding: 0 24px 72px;
+  }
+
+  .about,
+  .services,
+  .projects,
+  .process,
+  .testimonials,
+  .safety,
+  .service-area,
+  .contact {
+    padding: 80px 0;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-row-1,
+  .projects-row-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .trust-bar-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .trust-stat {
+    border-bottom: 1px solid var(--warm-stone);
+  }
+
+  .trust-stat:nth-child(odd) {
+    border-right: 1px solid var(--warm-stone);
+  }
+
+  .trust-stat:nth-child(even) {
+    border-right: none;
+  }
+
+  .trust-stat:nth-last-child(-n+2) {
+    border-bottom: none;
+  }
+
+  .creds-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-links {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-ctas {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero-ctas .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .section-sub {
+    font-size: 16px;
+  }
+}
+
+/* ==================== PLACEHOLDER SVGs FOR IMAGES ==================== */
+.placeholder-img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+</style>
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<!-- ==================== NAVIGATION ==================== -->
+<nav class="nav" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo" aria-label="VoltGuard Electrical - Home">
+      <svg class="nav-logo-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M18 2C10.268 2 4 8.268 4 16c0 5.1 2.732 9.564 6.812 12.01L18 34l7.188-5.99C29.268 25.564 32 21.1 32 16c0-7.732-6.268-14-14-14z" stroke="#D16A2D" stroke-width="1.8" fill="none"/>
+        <path d="M20.5 8L14 19h5l-2 9L24 17h-5.5L20.5 8z" stroke="#D16A2D" stroke-width="1.6" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+      </svg>
+      <div class="nav-logo-text">
+        <span class="nav-logo-name">VoltGuard</span>
+        <span class="nav-logo-sub">Electrical Subcontractors</span>
+      </div>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#safety">Safety</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <a href="tel:6155550243" class="nav-phone" aria-label="Call us at (615) 555-0243">
+        <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M6.6 9.4c1.2 1.2 2.5 2.1 3.2 1.4l1.1-1.1c.3-.3.8-.3 1.1 0l2 2c.3.3.3.8 0 1.1l-1.2 1.2c-1.8 1.8-5.8-.2-8.5-2.9C1.5 8.4-.5 4.4 1.3 2.6l1.2-1.2c.3-.3.8-.3 1.1 0l2 2c.3.3.3.8 0 1.1L4.5 5.6c-.7.7.2 2 1.4 3.2l.7.6z" fill="currentColor"/>
+        </svg>
+        (615) 555-0243
+      </a>
+      <a href="#contact" class="btn btn-primary btn-sm">Request a Bid</a>
+    </div>
+
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" id="hamburgerBtn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Mobile navigation menu">
+  <button class="mobile-menu-close" id="mobileMenuClose" aria-label="Close menu">&times;</button>
+  <ul class="mobile-menu-links">
+    <li><a href="#about" class="mobile-nav-link">About</a></li>
+    <li><a href="#services" class="mobile-nav-link">Services</a></li>
+    <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+    <li><a href="#process" class="mobile-nav-link">Process</a></li>
+    <li><a href="#safety" class="mobile-nav-link">Safety</a></li>
+    <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+  </ul>
+  <div class="mobile-menu-phone">
+    <a href="tel:6155550243">(615) 555-0243</a>
+    <br>
+    <a href="tel:6155550243" class="btn btn-primary" style="margin-top: 8px;">Tap to Call</a>
+  </div>
+</div>
+
+<!-- ==================== HERO ==================== -->
+<header class="hero" role="banner">
+  <div class="hero-image">
+    <!-- Warm placeholder representing an electrician working at a residential panel in morning light -->
+    <svg width="100%" height="100%" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <defs>
+        <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color:#c9b896"/>
+          <stop offset="30%" style="stop-color:#d4c4a0"/>
+          <stop offset="60%" style="stop-color:#b8a882"/>
+          <stop offset="100%" style="stop-color:#a89572"/>
+        </linearGradient>
+        <linearGradient id="wallGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" style="stop-color:#e8dcc4"/>
+          <stop offset="100%" style="stop-color:#d4c4a0"/>
+        </linearGradient>
+        <linearGradient id="lightGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+          <stop offset="0%" style="stop-color:#fff8e0;stop-opacity:0.4"/>
+          <stop offset="100%" style="stop-color:#fff8e0;stop-opacity:0"/>
+        </linearGradient>
+      </defs>
+      <!-- Background wall -->
+      <rect width="1600" height="900" fill="url(#heroGrad)"/>
+      <!-- Stud walls -->
+      <rect x="0" y="100" width="1600" height="700" fill="url(#wallGrad)" opacity="0.5"/>
+      <!-- Studs -->
+      <rect x="200" y="80" width="12" height="720" fill="#c2a878" opacity="0.6"/>
+      <rect x="400" y="80" width="12" height="720" fill="#c2a878" opacity="0.6"/>
+      <rect x="600" y="80" width="12" height="720" fill="#c2a878" opacity="0.6"/>
+      <rect x="800" y="80" width="12" height="720" fill="#c2a878" opacity="0.6"/>
+      <rect x="1000" y="80" width="12" height="720" fill="#c2a878" opacity="0.6"/>
+      <rect x="1200" y="80" width="12" height="720" fill="#c2a878" opacity="0.6"/>
+      <rect x="1400" y="80" width="12" height="720" fill="#c2a878" opacity="0.6"/>
+      <!-- Top plate -->
+      <rect x="0" y="72" width="1600" height="14" fill="#bfa870" opacity="0.5"/>
+      <!-- Bottom plate -->
+      <rect x="0" y="790" width="1600" height="14" fill="#bfa870" opacity="0.5"/>
+      <!-- Window opening with light -->
+      <rect x="950" y="140" width="260" height="320" fill="#d8cfb8" opacity="0.4"/>
+      <rect x="960" y="150" width="240" height="300" fill="#e8dcc4" opacity="0.6"/>
+      <rect width="400" height="500" x="880" y="100" fill="url(#lightGrad)" opacity="0.3"/>
+      <!-- Morning light rays -->
+      <polygon points="960,150 1200,150 1400,500 700,500" fill="#fff8e0" opacity="0.08"/>
+      <!-- Electrical panel (open) -->
+      <rect x="560" y="250" width="100" height="160" rx="3" fill="#8a8a8a" opacity="0.7"/>
+      <rect x="565" y="255" width="90" height="150" rx="2" fill="#636363" opacity="0.6"/>
+      <!-- Panel cover (open, angled) -->
+      <rect x="470" y="260" width="90" height="140" rx="2" fill="#9a9a9a" opacity="0.5" transform="rotate(-10, 470, 330)"/>
+      <!-- Wires (Romex runs) -->
+      <path d="M610 280 Q680 280 710 200 Q730 140 780 100" stroke="#c67830" stroke-width="3" fill="none" opacity="0.6"/>
+      <path d="M610 310 Q700 310 750 240 Q780 190 850 120" stroke="#c67830" stroke-width="3" fill="none" opacity="0.5"/>
+      <path d="M610 340 Q660 340 680 400 Q700 480 680 600" stroke="#c67830" stroke-width="3" fill="none" opacity="0.5"/>
+      <path d="M560 350 Q500 350 460 300 Q420 250 350 200" stroke="#c67830" stroke-width="2.5" fill="none" opacity="0.4"/>
+      <path d="M560 300 Q480 300 440 260 Q400 220 320 180" stroke="#c67830" stroke-width="2.5" fill="none" opacity="0.4"/>
+      <!-- Romex through studs -->
+      <path d="M200 380 L400 380" stroke="#c67830" stroke-width="3" fill="none" opacity="0.35"/>
+      <path d="M400 380 L600 370" stroke="#c67830" stroke-width="3" fill="none" opacity="0.35"/>
+      <path d="M200 520 L400 520 L600 510" stroke="#e8a050" stroke-width="2.5" fill="none" opacity="0.3"/>
+      <path d="M800 380 L1000 370 L1200 375" stroke="#c67830" stroke-width="3" fill="none" opacity="0.3"/>
+      <!-- Electrician figure (simplified, warm) -->
+      <!-- Crouching figure -->
+      <ellipse cx="600" cy="620" rx="45" ry="30" fill="#3a5a7a" opacity="0.6"/>
+      <!-- Body/torso -->
+      <rect x="570" y="500" width="55" height="120" rx="12" fill="#3a6a8a" opacity="0.55"/>
+      <!-- Head -->
+      <circle cx="595" cy="475" r="28" fill="#d4a878" opacity="0.55"/>
+      <!-- Hard hat -->
+      <ellipse cx="595" cy="460" rx="34" ry="14" fill="#d16a2d" opacity="0.6"/>
+      <rect x="561" y="452" width="68" height="12" rx="3" fill="#d16a2d" opacity="0.55"/>
+      <!-- Arms reaching toward panel -->
+      <path d="M615 530 Q640 500 640 420 Q640 380 620 350" stroke="#3a6a8a" stroke-width="14" fill="none" opacity="0.45" stroke-linecap="round"/>
+      <path d="M575 540 Q555 500 560 440 Q562 400 570 370" stroke="#3a6a8a" stroke-width="14" fill="none" opacity="0.45" stroke-linecap="round"/>
+      <!-- Tool bag on ground -->
+      <rect x="680" y="640" width="60" height="40" rx="5" fill="#8a6a4a" opacity="0.4"/>
+      <!-- Floor -->
+      <rect x="0" y="800" width="1600" height="100" fill="#bfaa88" opacity="0.3"/>
+      <!-- Concrete floor texture -->
+      <rect x="0" y="800" width="1600" height="100" fill="#b0a080" opacity="0.2"/>
+    </svg>
+  </div>
+  <div class="hero-gradient"></div>
+  <div class="hero-content">
+    <div class="container">
+      <p class="hero-detail">Licensed Electrical Subcontractor · Serving the Southeast Since 1997</p>
+      <h1 class="hero-headline">The Crew Behind<br><span class="accent">the Walls.</span></h1>
+      <p class="hero-sub">Residential and commercial electrical subcontracting for general contractors who don't call twice.</p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn btn-primary">See Our Work</a>
+        <a href="#contact" class="btn btn-outline">Request a Bid</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ==================== ABOUT ==================== -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p class="section-label">Since 1997</p>
+        <h2 class="section-headline section-headline-sm">We're the Electricians Your GC Actually Trusts</h2>
+        <p>VoltGuard Electrical started when Dale Meyers left a commercial EC to go out on his own with two guys and a service van. Twenty-seven years later, we run six crews across three states — but we still wire every panel like Dale's standing behind us watching.</p>
+        <p>We're an electrical subcontractor. That means we work for general contractors, not homeowners directly. We rough in new construction, wire remodels, pull feeders for commercial buildouts, and handle service upgrades that other subs won't touch. Our guys carry their own insurance, show up when the schedule says, and leave the job site cleaner than they found it.</p>
+        <p>We don't do sales pitches. We do walkthroughs, honest bids, and clean work. If we can't hit your number, we'll tell you on day one — not change order you on day forty.</p>
+        <hr class="about-rule">
+        <p class="about-attribution">— Dale Meyers, Founder &amp; Master Electrician</p>
+      </div>
+      <div class="about-image-wrap reveal" style="transition-delay: 0.1s;">
+        <!-- Crew photo placeholder -->
+        <img
+  src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  alt="Three electricians standing at the back of a work van with tool bags on the tailgate, coffee in hand, morning light, one of them laughing"
+  width="800"
+  height="600"
+  loading="lazy"
+  style="aspect-ratio:4/3; border: 1px solid #DDD5C6; box-shadow: 8px 8px 0px #DDD5C6; object-fit: cover; width: 100%;"
+>
+          <defs>
+            <linearGradient id="vanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#d4c4a0"/>
+              <stop offset="100%" style="stop-color:#bfaa88"/>
+            </linearGradient>
+          </defs>
+          <rect width="600" height="450" fill="url(#vanGrad)"/>
+          <!-- Sky -->
+          <rect width="600" height="180" fill="#c8d4de" opacity="0.4"/>
+          <!-- Work van -->
+          <rect x="80" y="120" width="440" height="220" rx="8" fill="#e8e0d0" opacity="0.7"/>
+          <rect x="80" y="80" width="280" height="120" rx="8" fill="#e8e0d0" opacity="0.6"/>
+          <!-- Van windshield -->
+          <rect x="100" y="95" width="120" height="80" rx="4" fill="#a8c0d0" opacity="0.4"/>
+          <!-- Van logo -->
+          <rect x="300" y="180" width="100" height="30" rx="3" fill="#d16a2d" opacity="0.3"/>
+          <!-- Open tailgate -->
+          <rect x="80" y="340" width="440" height="20" rx="3" fill="#c8b898" opacity="0.5"/>
+          <!-- Tool bags on tailgate -->
+          <rect x="120" y="310" width="50" height="35" rx="4" fill="#8a6a4a" opacity="0.5"/>
+          <rect x="190" y="315" width="40" height="30" rx="3" fill="#7a5a3a" opacity="0.4"/>
+          <!-- Ground/parking lot -->
+          <rect x="0" y="360" width="600" height="90" fill="#b8a888" opacity="0.3"/>
+          <!-- Three figures -->
+          <!-- Person 1 -->
+          <rect x="160" y="230" width="50" height="110" rx="10" fill="#3a6a8a" opacity="0.45"/>
+          <circle cx="185" cy="210" r="22" fill="#d4a878" opacity="0.45"/>
+          <ellipse cx="185" cy="196" rx="26" ry="10" fill="#d16a2d" opacity="0.4"/>
+          <!-- Person 2 (laughing) -->
+          <rect x="270" y="220" width="55" height="120" rx="10" fill="#4a5a6a" opacity="0.45"/>
+          <circle cx="298" cy="200" r="23" fill="#c8a070" opacity="0.45"/>
+          <ellipse cx="298" cy="186" rx="27" ry="10" fill="#e8a030" opacity="0.35"/>
+          <!-- Coffee cup -->
+          <rect x="320" y="270" width="10" height="16" rx="2" fill="#f0f0f0" opacity="0.5"/>
+          <!-- Person 3 -->
+          <rect x="380" y="235" width="48" height="105" rx="10" fill="#3a5a3a" opacity="0.45"/>
+          <circle cx="404" cy="215" r="21" fill="#c8a070" opacity="0.45"/>
+          <ellipse cx="404" cy="202" rx="25" ry="9" fill="#d16a2d" opacity="0.4"/>
+          <!-- Coffee cup -->
+          <rect x="360" y="285" width="10" height="16" rx="2" fill="#f0f0f0" opacity="0.45"/>
+          <!-- Morning light glow -->
+          <rect x="0" y="0" width="600" height="450" fill="#fff8e0" opacity="0.06"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== SERVICES ==================== -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="reveal">
+      <p class="section-label">What We Wire</p>
+      <h2 class="section-headline">Every Circuit, Every Connection</h2>
+      <p class="section-sub">We stay in our lane so we can be the best at what's in it.</p>
+    </div>
+    <div class="services-grid">
+
+      <div class="service-card reveal">
+        <div class="service-card-image">
+          <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" aria-label="Open wall with neat Romex wiring runs between studs">
+            <rect width="400" height="300" fill="#e0d8c4"/>
+            <rect x="0" y="0" width="400" height="20" fill="#c8b898" opacity="0.5"/>
+            <rect x="0" y="280" width="400" height="20" fill="#c8b898" opacity="0.5"/>
+            <rect x="60" y="20" width="10" height="260" fill="#c2a878" opacity="0.6"/>
+            <rect x="160" y="20" width="10" height="260" fill="#c2a878" opacity="0.6"/>
+            <rect x="260" y="20" width="10" height="260" fill="#c2a878" opacity="0.6"/>
+            <rect x="340" y="20" width="10" height="260" fill="#c2a878" opacity="0.6"/>
+            <path d="M70 120 L160 120" stroke="#c67830" stroke-width="3" fill="none" opacity="0.6"/>
+            <path d="M170 120 L260 118" stroke="#c67830" stroke-width="3" fill="none" opacity="0.6"/>
+            <path d="M70 180 L160 180" stroke="#e8a050" stroke-width="2.5" fill="none" opacity="0.5"/>
+            <path d="M170 180 L260 178" stroke="#e8a050" stroke-width="2.5" fill="none" opacity="0.5"/>
+            <rect x="95" y="105" width="30" height="45" rx="2" fill="#4a90d0" opacity="0.4"/>
+            <rect x="200" y="160" width="30" height="45" rx="2" fill="#4a90d0" opacity="0.4"/>
+          </svg>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-card-title">New Construction Rough-In</h3>
+          <p class="service-card-desc">We wire it right behind the drywall so nobody ever has to open it up again. Residential and light commercial, wood and steel frame.</p>
+          <span class="service-card-tag">200A–400A panels · Wood &amp; steel frame</span>
+          <a href="#contact" class="service-card-link">Learn more <span class="arrow">→</span></a>
+        </div>
+      </div>
+
+      <div class="service-card reveal" style="transition-delay: 0.1s;">
+        <div class="service-card-image">
+          <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" aria-label="Residential electrical panel with neat circuit breaker layout">
+            <rect width="400" height="300" fill="#e8e0d0"/>
+            <rect x="120" y="30" width="160" height="240" rx="4" fill="#b0b0b0" opacity="0.6"/>
+            <rect x="130" y="40" width="140" height="220" rx="2" fill="#8a8a8a" opacity="0.5"/>
+            <rect x="145" y="60" width="50" height="12" rx="1" fill="#2a2a2a" opacity="0.4"/>
+            <rect x="145" y="80" width="50" height="12" rx="1" fill="#2a2a2a" opacity="0.4"/>
+            <rect x="145" y="100" width="50" height="12" rx="1" fill="#2a2a2a" opacity="0.4"/>
+            <rect x="145" y="120" width="50" height="12" rx="1" fill="#2a2a2a" opacity="0.4"/>
+            <rect x="145" y="140" width="50" height="12" rx="1" fill="#2a2a2a" opacity="0.4"/>
+            <rect x="145" y="160" width="50" height="12" rx="1" fill="#d16a2d" opacity="0.5"/>
+            <rect x="145" y="180" width="50" height="12" rx="1" fill="#2a2a2a" opacity="0.4"/>
+            <rect x="205" y="60" width="50" height="12" rx="1" fill="#2a2a2a" opacity="0.4"/>
+            <rect x="205" y="80" width="50" height="12" rx="1" fill="#2a2a2a" opacity="0.4"/>
+            <rect x="205" y="100" width="50" height="12" rx="1" fill="#2a2a2a" opacity="0.4"/>
+            <rect x="205" y="120" width="50" height="12" rx="1" fill="#2a2a2a" opacity="0.4"/>
+            <rect x="205" y="140" width="50" height="12" rx="1" fill="#2a2a2a" opacity="0.4"/>
+            <rect x="205" y="160" width="50" height="12" rx="1" fill="#2a2a2a" opacity="0.4"/>
+            <rect x="205" y="180" width="50" height="12" rx="1" fill="#2a2a2a" opacity="0.4"/>
+            <!-- Main breaker -->
+            <rect x="165" y="215" width="70" height="25" rx="2" fill="#d16a2d" opacity="0.5"/>
+            <!-- Wires coming in top -->
+            <path d="M180 30 L180 10" stroke="#2a2a2a" stroke-width="4" opacity="0.3"/>
+            <path d="M200 30 L200 10" stroke="#2a2a2a" stroke-width="4" opacity="0.3"/>
+            <path d="M220 30 L220 10" stroke="#2a2a2a" stroke-width="4" opacity="0.3"/>
+          </svg>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-card-title">Service Upgrades &amp; Panel Replacements</h3>
+          <p class="service-card-desc">100A to 200A. Federal Pacific swaps. Meter relocations. We pull the permit and schedule the poco.</p>
+          <span class="service-card-tag">100A–600A · Permit included</span>
+          <a href="#contact" class="service-card-link">Learn more <span class="arrow">→</span></a>
+        </div>
+      </div>
+
+      <div class="service-card reveal" style="transition-delay: 0.2s;">
+        <div class="service-card-image">
+          <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" aria-label="Finished room with recessed lighting and clean switch plates">
+            <rect width="400" height="300" fill="#f0e8d8"/>
+            <!-- Ceiling -->
+            <rect x="0" y="0" width="400" height="60" fill="#f5f0e0" opacity="0.5"/>
+            <!-- Recessed lights -->
+            <circle cx="100" cy="30" r="16" fill="#fff8e0" opacity="0.6"/>
+            <circle cx="100" cy="30" r="8" fill="#ffffff" opacity="0.4"/>
+            <circle cx="200" cy="30" r="16" fill="#fff8e0" opacity="0.6"/>
+            <circle cx="200" cy="30" r="8" fill="#ffffff" opacity="0.4"/>
+            <circle cx="300" cy="30" r="16" fill="#fff8e0" opacity="0.6"/>
+            <circle cx="300" cy="30" r="8" fill="#ffffff" opacity="0.4"/>
+            <!-- Wall -->
+            <rect x="0" y="60" width="400" height="240" fill="#e8e0d0" opacity="0.4"/>
+            <!-- Switch plate -->
+            <rect x="50" y="140" width="24" height="40" rx="2" fill="#f5f0e0" opacity="0.7"/>
+            <rect x="58" y="148" width="8" height="24" rx="1" fill="#e0d8c8" opacity="0.6"/>
+            <!-- Outlet -->
+            <rect x="320" y="200" width="24" height="40" rx="2" fill="#f5f0e0" opacity="0.7"/>
+            <circle cx="332" cy="214" r="3" fill="#d0c8b8" opacity="0.5"/>
+            <circle cx="332" cy="228" r="3" fill="#d0c8b8" opacity="0.5"/>
+            <!-- Floor -->
+            <rect x="0" y="260" width="400" height="40" fill="#c8b898" opacity="0.3"/>
+            <!-- Light beams from recessed -->
+            <polygon points="84,46 116,46 140,260 60,260" fill="#fff8e0" opacity="0.06"/>
+            <polygon points="184,46 216,46 240,260 160,260" fill="#fff8e0" opacity="0.06"/>
+            <polygon points="284,46 316,46 340,260 260,260" fill="#fff8e0" opacity="0.06"/>
+          </svg>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-card-title">Finish Trim &amp; Device Installation</h3>
+          <p class="service-card-desc">Switches, receptacles, fixtures, and cover plates. We finish what we started — clean, level, and tight.</p>
+          <span class="service-card-tag">NEC 2023 compliant</span>
+          <a href="#contact" class="service-card-link">Learn more <span class="arrow">→</span></a>
+        </div>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-card-image">
+          <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" aria-label="Commercial office space with conduit and fluorescent lighting">
+            <rect width="400" height="300" fill="#e0dcd0"/>
+            <!-- Drop ceiling grid -->
+            <line x1="0" y1="50" x2="400" y2="50" stroke="#c8c0b0" stroke-width="1" opacity="0.5"/>
+            <line x1="100" y1="0" x2="100" y2="50" stroke="#c8c0b0" stroke-width="1" opacity="0.5"/>
+            <line x1="200" y1="0" x2="200" y2="50" stroke="#c8c0b0" stroke-width="1" opacity="0.5"/>
+            <line x1="300" y1="0" x2="300" y2="50" stroke="#c8c0b0" stroke-width="1" opacity="0.5"/>
+            <!-- Fluorescent fixture -->
+            <rect x="120" y="25" width="160" height="8" rx="1" fill="#f0f0f0" opacity="0.5"/>
+            <!-- Conduit runs on ceiling -->
+            <path d="M50 40 L350 40" stroke="#8a8a8a" stroke-width="3" fill="none" opacity="0.3"/>
+            <path d="M200 40 L200 0" stroke="#8a8a8a" stroke-width="3" fill="none" opacity="0.3"/>
+            <!-- Walls -->
+            <rect x="0" y="50" width="12" height="250" fill="#d0c8b8" opacity="0.4"/>
+            <rect x="388" y="50" width="12" height="250" fill="#d0c8b8" opacity="0.4"/>
+            <!-- Commercial panel on wall -->
+            <rect x="20" y="100" width="40" height="80" rx="2" fill="#a0a0a0" opacity="0.5"/>
+            <!-- Floor -->
+            <rect x="0" y="260" width="400" height="40" fill="#c0b8a8" opacity="0.3"/>
+            <!-- Desk outline -->
+            <rect x="150" y="180" width="160" height="10" rx="1" fill="#b0a890" opacity="0.3"/>
+            <rect x="160" y="190" width="8" height="70" fill="#b0a890" opacity="0.3"/>
+            <rect x="292" y="190" width="8" height="70" fill="#b0a890" opacity="0.3"/>
+          </svg>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-card-title">Commercial Tenant Buildouts</h3>
+          <p class="service-card-desc">Office, retail, restaurant. We read the plans, hit the schedule, and coordinate with your other trades without drama.</p>
+          <span class="service-card-tag">Up to 400A 3-phase · EMT &amp; MC cable</span>
+          <a href="#contact" class="service-card-link">Learn more <span class="arrow">→</span></a>
+        </div>
+      </div>
+
+      <div class="service-card reveal" style="transition-delay: 0.1s;">
+        <div class="service-card-image">
+          <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" aria-label="Under-cabinet lighting illuminating a kitchen counter">
+            <rect width="400" height="300" fill="#e8e0d0"/>
+            <!-- Upper cabinets -->
+            <rect x="40" y="40" width="140" height="100" rx="3" fill="#c8b898" opacity="0.5"/>
+            <rect x="200" y="40" width="160" height="100" rx="3" fill="#c8b898" opacity="0.5"/>
+            <!-- Under-cabinet light strip -->
+            <rect x="40" y="140" width="140" height="4" fill="#fff0d0" opacity="0.7"/>
+            <rect x="200" y="140" width="160" height="4" fill="#fff0d0" opacity="0.7"/>
+            <!-- Light glow on counter -->
+            <rect x="40" y="144" width="320" height="40" fill="#fff8e0" opacity="0.15"/>
+            <!-- Counter -->
+            <rect x="20" y="180" width="360" height="15" rx="2" fill="#b0a888" opacity="0.5"/>
+            <!-- Lower cabinets -->
+            <rect x="20" y="195" width="360" height="85" rx="3" fill="#c8b898" opacity="0.4"/>
+            <!-- Recessed lights above -->
+            <circle cx="120" cy="15" r="10" fill="#fff8e0" opacity="0.4"/>
+            <circle cx="280" cy="15" r="10" fill="#fff8e0" opacity="0.4"/>
+          </svg>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-card-title">Lighting Design &amp; Installation</h3>
+          <p class="service-card-desc">Recessed, track, under-cabinet, landscape. We help GCs give their clients a lighting package that sells the house.</p>
+          <span class="service-card-tag">LED &amp; dimmer compatible</span>
+          <a href="#contact" class="service-card-link">Learn more <span class="arrow">→</span></a>
+        </div>
+      </div>
+
+      <div class="service-card reveal" style="transition-delay: 0.2s;">
+        <div class="service-card-image">
+          <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" aria-label="EV charger mounted on garage wall next to electrical panel">
+            <rect width="400" height="300" fill="#e0d8c8"/>
+            <!-- Garage wall -->
+            <rect x="0" y="0" width="400" height="260" fill="#d8d0c0" opacity="0.4"/>
+            <!-- Garage floor -->
+            <rect x="0" y="260" width="400" height="40" fill="#c0b8a8" opacity="0.3"/>
+            <!-- EV Charger unit on wall -->
+            <rect x="140" y="80" width="60" height="100" rx="6" fill="#4a6a8a" opacity="0.5"/>
+            <rect x="150" y="95" width="40" height="20" rx="2" fill="#6a8aaa" opacity="0.4"/>
+            <circle cx="170" cy="140" r="8" fill="#4D7A5A" opacity="0.5"/>
+            <!-- Cable hanging -->
+            <path d="M170 180 Q170 210 190 230 Q210 250 210 270" stroke="#2a2a2a" stroke-width="6" fill="none" opacity="0.3" stroke-linecap="round"/>
+            <!-- Panel nearby -->
+            <rect x="280" y="60" width="60" height="120" rx="3" fill="#a0a0a0" opacity="0.4"/>
+            <!-- Conduit between -->
+            <path d="M200 130 L280 130" stroke="#8a8a8a" stroke-width="4" fill="none" opacity="0.3"/>
+            <path d="M280 130 L280 100" stroke="#8a8a8a" stroke-width="4" fill="none" opacity="0.3"/>
+          </svg>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-card-title">EV Charger &amp; Generator Circuits</h3>
+          <p class="service-card-desc">Dedicated circuits, transfer switches, and load calculations. The work behind the new essentials.</p>
+          <span class="service-card-tag">Level 2 chargers · Automatic transfer switches</span>
+          <a href="#contact" class="service-card-link">Learn more <span class="arrow">→</span></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== TRUST BAR ==================== -->
+<section class="trust-bar" aria-label="Company statistics">
+  <div class="container">
+    <div class="trust-bar-grid">
+      <div class="trust-stat reveal">
+        <div class="trust-stat-number" data-target="1200">0</div>
+        <div class="trust-stat-label">Projects Wired</div>
+      </div>
+      <div class="trust-stat reveal" style="transition-delay: 0.1s;">
+        <div class="trust-stat-number" data-target="27">0</div>
+        <div class="trust-stat-label">Years in the Trade</div>
+      </div>
+      <div class="trust-stat reveal" style="transition-delay: 0.2s;">
+        <div class="trust-stat-number" data-target="0" data-static="true">0</div>
+        <div class="trust-stat-label">Failed Inspections This Year</div>
+      </div>
+      <div class="trust-stat reveal" style="transition-delay: 0.3s;">
+        <div class="trust-stat-number" data-target="6">0</div>
+        <div class="trust-stat-label">Full-Time Crews</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== PROJECTS ==================== -->
+<section class="projects" id="projects">
+  <div class="container">
+    <div class="reveal">
+      <p class="section-label">Recent Work</p>
+      <h2 class="section-headline">Wired Right, Inspected Clean</h2>
+      <p class="section-sub">A few of the jobs we're proud to have our name on.</p>
+    </div>
+    <div class="projects-grid">
+      <div class="projects-row-1">
+
+        <div class="project-card reveal">
+          <div class="project-card-image">
+    <img
+      src="https://images.unsplash.com/photo-1597502310092-31cdaa35b46d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      alt="New construction subdivision homes in various stages of completion"
+      width="900"
+      height="600"
+      loading="lazy"
+    >
+    <div class="project-card-border"></div>
+</div>
+          <div class="project-card-info">
+            <h3 class="project-card-name">Crestwood Subdivision — Phase III</h3>
+            <p class="project-card-location">Murfreesboro, TN</p>
+            <p class="project-card-scope">Complete electrical rough-in and trim for 48 single-family homes, 200A panels, structured wiring.</p>
+            <span class="project-tag">New Construction</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal" style="transition-delay: 0.1s;">
+          <div class="project-card-image">
+    <img
+      src="https://images.unsplash.com/photo-1615774925655-a0e97fc85c14?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      alt="Modern medical office interior with clean lighting and organized electrical systems"
+      width="600"
+      height="400"
+      loading="lazy"
+    >
+    <div class="project-card-border"></div>
+</div>
+          <div class="project-card-info">
+            <h3 class="project-card-name">Summit Medical Office Buildout</h3>
+            <p class="project-card-location">Franklin, TN</p>
+            <p class="project-card-scope">Full electrical for a 6,200 sq ft medical office — dedicated circuits, emergency lighting, clean power for imaging equipment.</p>
+            <span class="project-tag">Commercial</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="projects-row-2">
+
+        <div class="project-card reveal">
+          <div class="project-card-image">
+    <img
+      src="https://images.unsplash.com/photo-1660330589487-39cc0177ba89?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      alt="Modern multifamily apartment building under construction"
+      width="600"
+      height="400"
+      loading="lazy"
+    >
+    <div class="project-card-border"></div>
+</div>
+          <div class="project-card-info">
+            <h3 class="project-card-name">The Wren on 5th Apartments</h3>
+            <p class="project-card-location">Nashville, TN</p>
+            <p class="project-card-scope">78-unit multifamily rough-in, meter banks, common area lighting, and EV charger infrastructure in the garage.</p>
+            <span class="project-tag">Multifamily</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal" style="transition-delay: 0.1s;">
+          <div class="project-card-image">
+    <img
+      src="https://plus.unsplash.com/premium_photo-1682148175448-8e418fcfbaa7?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      alt="Classic 1920s craftsman home with original porch columns and architectural details"
+      width="900"
+      height="600"
+      loading="lazy"
+    >
+    <div class="project-card-border"></div>
+</div>
+          <div class="project-card-info">
+            <h3 class="project-card-name">Belmont Historic Renovation</h3>
+            <p class="project-card-location">Nashville, TN</p>
+            <p class="project-card-scope">Knob-and-tube replacement in a 1920s craftsman. Full rewire without damaging original plaster. Passed on first inspection.</p>
+            <span class="project-tag">Renovation</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== PROCESS ==================== -->
+<section class="process" id="process">
+  <div class="container">
+    <div class="reveal">
+      <p class="section-label">How We Work</p>
+      <h2 class="section-headline">No Surprises on the Invoice or the Inspection.</h2>
+    </div>
+
+    <div class="process-steps" id="processSteps">
+      <div class="process-line"></div>
+      <div class="process-line-fill" id="processLineFill"></div>
+
+      <div class="process-step reveal">
+        <div class="process-dot" data-step="0"></div>
+        <div class="process-number">01</div>
+        <h3 class="process-title">Plan Review &amp; Bid</h3>
+        <p class="process-desc">Send us the prints. We'll review the electrical scope, check for conflicts with other trades, and get you a line-item bid — usually within 48 hours.</p>
+      </div>
+
+      <div class="process-step reveal" style="transition-delay: 0.1s;">
+        <div class="process-dot" data-step="1"></div>
+        <div class="process-number">02</div>
+        <h3 class="process-title">Pre-Wire Coordination</h3>
+        <p class="process-desc">We sync with your framing schedule and other subs. We show up when the walls are open and the plumber's out of the way — not before, not after.</p>
+      </div>
+
+      <div class="process-step reveal" style="transition-delay: 0.2s;">
+        <div class="process-dot" data-step="2"></div>
+        <div class="process-number">03</div>
+        <h3 class="process-title">Rough-In</h3>
+        <p class="process-desc">Boxes set, wire pulled, circuits labeled, grounds landed. Our foremen photograph every wall before drywall goes up. No guessing later.</p>
+      </div>
+
+      <div class="process-step reveal" style="transition-delay: 0.3s;">
+        <div class="process-dot" data-step="3"></div>
+        <div class="process-number">04</div>
+        <h3 class="process-title">Trim &amp; Finish</h3>
+        <p class="process-desc">Devices, fixtures, covers, panels landed and labeled. We tape off finished floors and wear booties on hardwood. Your GC shouldn't have to ask.</p>
+      </div>
+
+      <div class="process-step reveal" style="transition-delay: 0.4s;">
+        <div class="process-dot" data-step="4"></div>
+        <div class="process-number">05</div>
+        <h3 class="process-title">Inspection &amp; Punch</h3>
+        <p class="process-desc">We schedule the inspection, we're on-site for it, and we handle the punch list the same day. Our callback rate is under 2%.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== TESTIMONIALS ==================== -->
+<section class="testimonials" id="testimonials">
+  <div class="container">
+    <div class="reveal">
+      <p class="section-label">From the GCs We Work With</p>
+      <h2 class="section-headline section-headline-sm">We'll Let Them Tell You</h2>
+    </div>
+    <div class="testimonials-grid">
+
+      <div class="testimonial-card reveal">
+        <span class="testimonial-quote-mark" aria-hidden="true">&ldquo;</span>
+        <p class="testimonial-text">I've used VoltGuard on every subdivision we've built since 2014. Their rough-in is clean, their guys communicate, and I've never once had an inspector kick back their work. That's all I need to know.</p>
+        <p class="testimonial-name">Rick Andersen</p>
+        <p class="testimonial-role">Andersen Homes, President</p>
+      </div>
+
+      <div class="testimonial-card reveal" style="transition-delay: 0.1s;">
+        <span class="testimonial-quote-mark" aria-hidden="true">&ldquo;</span>
+        <p class="testimonial-text">They bid what they bid. No surprise change orders, no nickel-and-diming on fixture counts. In nine years, we've had one disagreement — and they handled it before I had to get involved.</p>
+        <p class="testimonial-name">Karen Dwyer</p>
+        <p class="testimonial-role">Dwyer Commercial Builders, Project Manager</p>
+      </div>
+
+      <div class="testimonial-card reveal" style="transition-delay: 0.2s;">
+        <span class="testimonial-quote-mark" aria-hidden="true">&ldquo;</span>
+        <p class="testimonial-text">Our last electrical sub left us hanging mid-project. VoltGuard came in, picked up someone else's mess, and finished the job on our original timeline. We haven't called anyone else since.</p>
+        <p class="testimonial-name">Marcus Cole</p>
+        <p class="testimonial-role">Cole &amp; Partners Construction</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== SAFETY ==================== -->
+<section class="safety" id="safety">
+  <div class="container">
+    <div class="safety-grid">
+      <div class="safety-text reveal">
+        <p class="section-label">Safety &amp; Licensing</p>
+        <h2 class="section-headline section-headline-sm">Licensed, Insured, and Inspection-Ready</h2>
+        <p>Every VoltGuard electrician carries their own credentials. Our journeymen average 11 years in the field. We hold weekly toolbox talks, maintain a written safety program, and carry $2M in general liability. Our EMR is 0.82 — below industry average — because we don't cut corners on safety or on wire.</p>
+        <p>We pull our own permits, schedule our own inspections, and stand behind every circuit we land. If it doesn't pass, we fix it on our dime. That's happened twice in 27 years.</p>
+        <hr class="safety-rule">
+      </div>
+      <div class="creds-grid reveal" style="transition-delay: 0.1s;">
+
+        <div class="cred-card">
+          <svg class="cred-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <path d="M9 12l2 2 4-4"/>
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
+          </svg>
+          <p class="cred-name">Tennessee Master Electrician License</p>
+          <p class="cred-issuer">TN Dept. of Commerce &amp; Insurance</p>
+        </div>
+
+        <div class="cred-card">
+          <svg class="cred-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+          <p class="cred-name">OSHA 30 Certified</p>
+          <p class="cred-issuer">All Foremen &amp; Supervisors</p>
+        </div>
+
+        <div class="cred-card">
+          <svg class="cred-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+            <circle cx="9" cy="7" r="4"/>
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+          </svg>
+          <p class="cred-name">IBEW Local 429 Signatory</p>
+          <p class="cred-issuer">International Brotherhood of Electrical Workers</p>
+        </div>
+
+        <div class="cred-card">
+          <svg class="cred-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <path d="M2 10h20"/>
+            <path d="M6 16h4"/>
+          </svg>
+          <p class="cred-name">$2M General Liability / $1M Workers' Comp</p>
+          <p class="cred-issuer">Current &amp; Verified</p>
+        </div>
+
+        <div class="cred-card">
+          <svg class="cred-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+          </svg>
+          <p class="cred-name">NEC 2023 Continuing Education</p>
+          <p class="cred-issuer">National Electrical Code</p>
+        </div>
+
+        <div class="cred-card">
+          <svg class="cred-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+          </svg>
+          <p class="cred-name">ESA Compliant</p>
+          <p class="cred-issuer">Electrical Safety Authority</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== SERVICE AREA ==================== -->
+<section class="service-area" id="service-area">
+  <div class="container">
+    <div class="reveal">
+      <p class="section-label">Where We Work</p>
+      <h2 class="section-headline section-headline-sm">Middle Tennessee and Beyond</h2>
+      <p class="section-sub">Based in Nashville. We run crews across the region — and we'll travel for the right project.</p>
+    </div>
+    <div class="area-grid">
+      <div class="area-map reveal">
+        <svg viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg" aria-label="Map of Tennessee and surrounding states showing VoltGuard service area in Middle Tennessee">
+          <!-- Background -->
+          <rect width="600" height="450" fill="var(--surface)"/>
+
+          <!-- Surrounding states (subtle) -->
+          <!-- Kentucky -->
+          <path d="M80 60 L520 50 L540 120 L480 140 L420 130 L350 140 L280 130 L200 140 L100 130 Z" fill="#EFE9DE" stroke="var(--warm-stone)" stroke-width="1"/>
+          <text x="300" y="100" font-family="var(--mono)" font-size="11" fill="var(--putty)" text-anchor="middle">Kentucky</text>
+
+          <!-- Virginia (corner) -->
+          <path d="M520 50 L580 80 L560 150 L540 120 Z" fill="#EFE9DE" stroke="var(--warm-stone)" stroke-width="1"/>
+
+          <!-- North Carolina (partial) -->
+          <path d="M560 150 L590 200 L580 280 L520 300 L460 280 Z" fill="#EFE9DE" stroke="var(--warm-stone)" stroke-width="1"/>
+          <text x="540" y="240" font-family="var(--mono)" font-size="10" fill="var(--putty)" text-anchor="middle">NC</text>
+
+          <!-- Georgia (partial) -->
+          <path d="M200 380 L300 390 L380 370 L420 340 L460 280 L520 300 L480 380 L400 420 L280 430 L180 410 Z" fill="#EFE9DE" stroke="var(--warm-stone)" stroke-width="1"/>
+          <text x="380" y="400" font-family="var(--mono)" font-size="11" fill="var(--putty)" text-anchor="middle">Georgia</text>
+
+          <!-- Alabama (partial) -->
+          <path d="M40 240 L100 230 L160 280 L200 380 L180 410 L80 400 L30 340 Z" fill="#EFE9DE" stroke="var(--warm-stone)" stroke-width="1"/>
+          <text x="100" y="340" font-family="var(--mono)" font-size="11" fill="var(--putty)" text-anchor="middle">Alabama</text>
+
+          <!-- Mississippi (corner) -->
+          <path d="M10 200 L40 240 L30 340 L10 340 Z" fill="#EFE9DE" stroke="var(--warm-stone)" stroke-width="1"/>
+
+          <!-- Arkansas (partial) -->
+          <path d="M10 130 L60 120 L80 170 L40 200 L10 200 Z" fill="#EFE9DE" stroke="var(--warm-stone)" stroke-width="1"/>
+
+          <!-- Missouri (corner) -->
+          <path d="M10 60 L80 60 L60 120 L10 130 Z" fill="#EFE9DE" stroke="var(--warm-stone)" stroke-width="1"/>
+
+          <!-- Tennessee (main shape) -->
+          <path d="M80 130 L100 130 L200 140 L280 130 L350 140 L420 130 L480 140 L540 120 L560 150 L460 280 L420 340 L380 370 L300 350 L200 380 L160 280 L100 230 L80 170 Z" fill="rgba(209,106,45,0.12)" stroke="var(--navy)" stroke-width="1.5"/>
+
+          <!-- Service area highlight (Middle TN) -->
+          <ellipse cx="300" cy="220" rx="100" ry="80" fill="rgba(209,106,45,0.15)" stroke="var(--orange)" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+          <!-- Tennessee label -->
+          <text x="300" y="310" font-family="var(--mono)" font-size="13" fill="var(--navy)" text-anchor="middle" font-weight="500">Tennessee</text>
+
+          <!-- Nashville dot -->
+          <circle cx="300" cy="200" r="6" fill="var(--orange)"/>
+          <circle cx="300" cy="200" r="10" fill="none" stroke="var(--orange)" stroke-width="1.5" opacity="0.5"/>
+          <text x="300" y="188" font-family="var(--mono)" font-size="12" fill="var(--navy)" text-anchor="middle" font-weight="500">Nashville</text>
+
+          <!-- Other cities -->
+          <circle cx="320" cy="248" r="3" fill="var(--conduit)"/>
+          <text x="336" y="252" font-family="var(--mono)" font-size="10" fill="var(--muted)">Murfreesboro</text>
+
+          <circle cx="280" cy="228" r="3" fill="var(--conduit)"/>
+          <text x="248" y="244" font-family="var(--mono)" font-size="10" fill="var(--muted)">Franklin</text>
+
+          <circle cx="248" cy="172" r="3" fill="var(--conduit)"/>
+          <text x="230" y="166" font-family="var(--mono)" font-size="10" fill="var(--muted)">Clarksville</text>
+
+          <circle cx="360" cy="216" r="3" fill="var(--conduit)"/>
+          <text x="376" y="220" font-family="var(--mono)" font-size="10" fill="var(--muted)">Cookeville</text>
+
+          <circle cx="400" cy="300" r="3" fill="var(--conduit)" opacity="0.6"/>
+          <text x="408" y="316" font-family="var(--mono)" font-size="10" fill="var(--putty)">Chattanooga</text>
+
+          <!-- Memphis -->
+          <circle cx="100" cy="200" r="3" fill="var(--putty)"/>
+          <text x="96" y="216" font-family="var(--mono)" font-size="10" fill="var(--putty)">Memphis</text>
+
+          <!-- Knoxville -->
+          <circle cx="480" cy="200" r="3" fill="var(--putty)"/>
+          <text x="478" y="216" font-family="var(--mono)" font-size="10" fill="var(--putty)">Knoxville</text>
+
+        </svg>
+      </div>
+      <div class="reveal" style="transition-delay: 0.1s;">
+        <ul class="area-list">
+          <li><span class="area-dot"></span> Nashville Metro</li>
+          <li><span class="area-dot"></span> Murfreesboro / Rutherford County</li>
+          <li><span class="area-dot"></span> Franklin / Williamson County</li>
+          <li><span class="area-dot"></span> Clarksville / Montgomery County</li>
+          <li><span class="area-dot"></span> Cookeville / Upper Cumberland</li>
+          <li><span class="area-dot" style="background: var(--putty);"></span> Chattanooga (select projects)</li>
+        </ul>
+        <p class="area-note">Willing to travel for subdivision and multifamily work — ask us.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== CONTACT ==================== -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="reveal">
+        <h2 class="contact-form-heading">Let's Look at Your Prints</h2>
+        <p class="contact-form-sub">Send us the details and we'll get back to you within one business day. For urgent scheduling needs, call us directly.</p>
+
+        <form action="#" method="POST" novalidate>
+          <div class="form-group">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" id="name" name="name" class="form-input" autocomplete="name" required>
+          </div>
+          <div class="form-group">
+            <label for="company" class="form-label">Company Name</label>
+            <input type="text" id="company" name="company" class="form-input" autocomplete="organization">
+          </div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
+            <div class="form-group">
+              <label for="phone" class="form-label">Phone Number</label>
+              <input type="tel" id="phone" name="phone" class="form-input" autocomplete="tel">
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" id="email" name="email" class="form-input" autocomplete="email" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="project-type" class="form-label">Project Type</label>
+            <select id="project-type" name="project-type" class="form-select">
+              <option value="" disabled selected>Select a project type</option>
+              <option value="new-construction">New Construction</option>
+              <option value="remodel">Remodel / Renovation</option>
+              <option value="commercial">Commercial Buildout</option>
+              <option value="service-upgrade">Service Upgrade</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="location" class="form-label">Project Location</label>
+            <input type="text" id="location" name="location" class="form-input">
+          </div>
+          <div class="form-group">
+            <label for="scope" class="form-label">Tell Us About the Scope</label>
+            <textarea id="scope" name="scope" class="form-textarea" rows="5"></textarea>
+          </div>
+          <button type="submit" class="form-submit">Send Your Project Details</button>
+          <p class="form-note">Or call directly: <a href="tel:6155550243">(615) 555-0243</a></p>
+        </form>
+      </div>
+
+      <div class="reveal" style="transition-delay: 0.1s;">
+        <!-- Shop photo placeholder -->
+        <img
+  class="contact-info-image"
+  src="https://images.unsplash.com/photo-1732660780054-0cf9fadb9d30?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  alt="Commercial shop exterior with work vans parked outside and open bay door showing organized tool storage"
+  width="800"
+  height="600"
+  loading="lazy"
+>
+
+        <ul class="contact-details">
+          <li>
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>2140 Elm Hill Pike, Suite B<br>Nashville, TN 37210</span>
+          </li>
+          <li>
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <a href="tel:6155550243" style="color: var(--body-color);">(615) 555-0243</a>
+          </li>
+          <li>
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:bids@voltguardelectric.com" style="color: var(--body-color);">bids@voltguardelectric.com</a>
+          </li>
+          <li>
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>Mon–Fri 6:30 AM – 4:30 PM<br>Emergency service available</span>
+          </li>
+        </ul>
+
+        <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="contact-map-link" aria-label="Open our location in Google Maps">
+          <svg width="100%" height="100%" viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="640" height="360" fill="#e8e0d0"/>
+            <!-- Simplified map illustration -->
+            <!-- Roads -->
+            <line x1="0" y1="180" x2="640" y2="180" stroke="#d0c8b0" stroke-width="20" opacity="0.4"/>
+            <line x1="320" y1="0" x2="320" y2="360" stroke="#d0c8b0" stroke-width="16" opacity="0.4"/>
+            <line x1="100" y1="0" x2="500" y2="360" stroke="#d8d0c0" stroke-width="12" opacity="0.3"/>
+            <!-- Blocks -->
+            <rect x="60" y="40" width="200" height="100" rx="4" fill="#d4ccc0" opacity="0.3"/>
+            <rect x="360" y="40" width="200" height="100" rx="4" fill="#d4ccc0" opacity="0.3"/>
+            <rect x="60" y="220" width="200" height="100" rx="4" fill="#d4ccc0" opacity="0.3"/>
+            <rect x="360" y="220" width="200" height="100" rx="4" fill="#d4ccc0" opacity="0.3"/>
+            <!-- Pin -->
+            <circle cx="320" cy="160" r="12" fill="var(--orange)" opacity="0.8"/>
+            <circle cx="320" cy="160" r="5" fill="var(--cream)"/>
+            <polygon points="320,172 312,160 328,160" fill="var(--orange)" opacity="0.8"/>
+            <!-- Label -->
+            <text x="320" y="145" font-family="var(--mono)" font-size="11" fill="var(--navy)" text-anchor="middle">VoltGuard Electric</text>
+            <text x="320" y="200" font-family="var(--mono)" font-size="10" fill="var(--muted)" text-anchor="middle">Click to open in Google Maps</text>
+          </svg>
+        </a>
+
+        <p class="contact-license">TN Electrical Contractor License #EC-07284 · Fully Licensed, Bonded &amp; Insured · $2M GL</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ==================== FOOTER ==================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <p class="footer-logo-name">VoltGuard</p>
+        <p class="footer-logo-sub">Electrical Subcontractors · Nashville, Tennessee</p>
+      </div>
+      <p class="footer-tagline">Clean wire. Clean work. Every time.</p>
+    </div>
+
+    <div class="footer-links">
+      <div>
+        <p class="footer-col-title">Services</p>
+        <ul class="footer-col-links">
+          <li><a href="#services">New Construction</a></li>
+          <li><a href="#services">Service Upgrades</a></li>
+          <li><a href="#services">Commercial</a></li>
+          <li><a href="#services">Lighting</a></li>
+          <li><a href="#services">EV &amp; Generators</a></li>
+          <li><a href="#services">Finish Trim</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-col-title">Company</p>
+        <ul class="footer-col-links">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#process">Our Process</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#safety">Safety</a></li>
+          <li><a href="#service-area">Service Area</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-col-title">Info</p>
+        <ul class="footer-col-links">
+          <li><a href="#contact">Request a Bid</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copyright">&copy; 2024 VoltGuard Electrical, LLC. All rights reserved.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+        <a href="#" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Mobile menu
+const hamburgerBtn = document.getElementById('hamburgerBtn');
+const mobileMenu = document.getElementById('mobileMenu');
+const mobileMenuClose = document.getElementById('mobileMenuClose');
+const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+hamburgerBtn.addEventListener('click', () => {
+  mobileMenu.classList.add('open');
+  hamburgerBtn.setAttribute('aria-expanded', 'true');
+  mobileMenuClose.focus();
+});
+
+mobileMenuClose.addEventListener('click', () => {
+  mobileMenu.classList.remove('open');
+  hamburgerBtn.setAttribute('aria-expanded', 'false');
+  hamburgerBtn.focus();
+});
+
+mobileNavLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    mobileMenu.classList.remove('open');
+    hamburgerBtn.setAttribute('aria-expanded', 'false');
+  });
+});
+
+// Close mobile menu on Escape
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && mobileMenu.classList.contains('open')) {
+    mobileMenu.classList.remove('open');
+    hamburgerBtn.setAttribute('aria-expanded', 'false');
+    hamburgerBtn.focus();
+  }
+});
+
+// Intersection Observer for reveal animations
+const revealElements = document.querySelectorAll('.reveal');
+
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      revealObserver.unobserve(entry.target);
+    }
+  });
+}, {
+  threshold: 0.1,
+  rootMargin: '0px 0px -40px 0px'
+});
+
+revealElements.forEach(el => {
+  revealObserver.observe(el);
+});
+
+// Counter animation for trust bar
+const counterElements = document.querySelectorAll('.trust-stat-number');
+let countersAnimated = false;
+
+function animateCounters() {
+  if (countersAnimated) return;
+  countersAnimated = true;
+
+  counterElements.forEach(el => {
+    const target = parseInt(el.getAttribute('data-target'));
+    const isStatic = el.getAttribute('data-static') === 'true';
+    const suffix = target === 1200 ? '+' : '';
+    const duration = 2000;
+    const startTime = performance.now();
+
+    if (isStatic) {
+      el.textContent = '0';
+      return;
+    }
+
+    function updateCounter(currentTime) {
+      const elapsed = currentTime - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      // ease-out
+      const eased = 1 - Math.pow(1 - progress, 3);
+      const current = Math.round(eased * target);
+      el.textContent = current.toLocaleString() + suffix;
+
+      if (progress < 1) {
+        requestAnimationFrame(updateCounter);
+      }
+    }
+
+    requestAnimationFrame(updateCounter);
+  });
+}
+
+const counterObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      animateCounters();
+      counterObserver.unobserve(entry.target);
+    }
+  });
+}, {
+  threshold: 0.3
+});
+
+const trustBar = document.querySelector('.trust-bar');
+if (trustBar) {
+  counterObserver.observe(trustBar);
+}
+
+// Process line fill on scroll
+const processSteps = document.getElementById('processSteps');
+const processLineFill = document.getElementById('processLineFill');
+const processDots = document.querySelectorAll('.process-dot');
+
+function updateProcessLine() {
+  if (!processSteps) return;
+
+  const rect = processSteps.getBoundingClientRect();
+  const stepsHeight = processSteps.offsetHeight;
+  const windowHeight = window.innerHeight;
+
+  // Calculate how much of the process section is scrolled through
+  const scrollStart = rect.top - windowHeight * 0.6;
+  const scrollEnd = rect.bottom - windowHeight * 0.4;
+  const scrollRange = scrollEnd - scrollStart;
+
+  let progress = 0;
+  if (scrollStart < 0) {
+    progress = Math.min(Math.abs(scrollStart) / scrollRange, 1);
+  }
+
+  const fillHeight = progress * stepsHeight;
+  processLineFill.style.height = fillHeight + 'px';
+
+  // Activate dots
+  processDots.forEach(dot => {
+    const dotRect = dot.getBoundingClientRect();
+    const dotTop = dot.offsetTop;
+    if (fillHeight >= dotTop) {
+      dot.classList.add('active');
+    } else {
+      dot.classList.remove('active');
+    }
+  });
+}
+
+// Check for prefers-reduced-motion
+const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+if (!prefersReducedMotion.matches) {
+  window.addEventListener('scroll', updateProcessLine, { passive: true });
+  updateProcessLine();
+} else {
+  // If reduced motion, fill the line completely and activate all dots
+  if (processLineFill) {
+    processLineFill.style.height = '100%';
+  }
+  processDots.forEach(dot => dot.classList.add('active'));
+}
+
+// Smooth scroll for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      e.preventDefault();
+      const navHeight = 72;
+      const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - navHeight;
+      window.scrollTo({
+        top: targetPosition,
+        behavior: prefersReducedMotion.matches ? 'auto' : 'smooth'
+      });
+    }
+  });
+});
+</script>
+
+</body>
+</html>
