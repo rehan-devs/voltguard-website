@@ -84,4 +84,4 @@ No build step. Just open the file.
 git clone https://github.com/YOUR-USERNAME/voltguard-website.git
 
 # Open in browser
-open index.html
+open index.html<!-- gitpulse:contribution index="1788143300" timestamp="2026-08-31" -->
